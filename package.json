@@ -1,0 +1,1 @@
+{"name":"devops-kt3","version":"1.0.0","main":"app.js","scripts":{"start":"node app.js","test":"jest --runInBand","lint":"eslint ."},"dependencies":{"pg":"8.13.1"},"devDependencies":{"jest":"29.7.0","eslint":"8.57.1"}}
