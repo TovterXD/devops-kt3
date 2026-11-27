@@ -7,7 +7,7 @@ function request(url) {
 test('GET / returns KT3 App', () => {
   const res = request('/');
   expect(res.writeHead).toHaveBeenCalledWith(200, { 'Content-Type': 'text/plain' });
-  expect(res.end).toHaveBeenCalledWith('BROKEN');
+  expect(res.end).toHaveBeenCalledWith('KT3 App');
 });
 test('GET /health returns ok', () => {
   const res = request('/health');
